@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --main: #142738;
+    --bg: #f2a297;
+    --bg-body: #f4436f;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--bg);
+    width: 250px;
+}
